@@ -1,2 +1,2 @@
 # js-temps
-frequently used front template with JavaScript, JQuery and customized bootstrap
+frequently used front templates with JavaScript, JQuery and customized bootstrap
