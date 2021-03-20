@@ -87,7 +87,7 @@
                 </div>
         <!-- Repeater Heading -->
                     <div class="col-md-6">
-                        <button class="btn btn-primary float-end">
+                        <button class="addsection btn btn-primary float-end">
                             Add X form
                         </button>
                     </div>
@@ -96,7 +96,10 @@
         
  </br>
         <div class="container px-3">
-    <form class="row g-3 border border-dark bg-yl1">
+    <form >
+        <div id="sections">
+  <div class="section">
+        <fieldset class="row g-3 border border-dark bg-yl1">
     <h6 class="border-bottom p-3">X Form #n</h6>
   <div class="col-md-6 p-3">
     <label for="inputEmail4" class="form-label">First Name</label>
@@ -138,10 +141,13 @@
   </div>
                         <!-- Repeater Remove Btn -->
                         <div class="">
-                            <button class="btn btn-danger float-end">
+                            <button class="removesection btn btn-danger float-end">
                                 Remove This
                             </button>
                         </div>
+        </fieldset>
+            </div>
+        </div>
 </form>
 </div>
     
@@ -155,7 +161,8 @@
   </footer>
 </main>
 
-
+<script src="js/jquery.js"></script>
+<script src="js/app.js"></script>
     
   </body>
 </html>
